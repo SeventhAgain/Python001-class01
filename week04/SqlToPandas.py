@@ -60,7 +60,7 @@ print(pd.merge(table1, table2, on='group', how='inner'))
 
 # case8
 print("SELECT * FROM table1 UNION SELECT * FROM table2;")
-print(pd.concat([table1, table2]))
+print(pd.concat([table1, table2]).drop_duplicates())
 
 # case9
 print("DELETE FROM table1 WHERE id=10;")
