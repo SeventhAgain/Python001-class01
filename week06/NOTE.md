@@ -26,6 +26,7 @@ python manage.py inspectdb > models.py
 ## django项目目录结构
 
 - project_name(项目名)
+    - manage.py 
     - project_name (项目系统设置)
         + __init__.py (系统初始加载文件)
         + settings.py (系统设置)
