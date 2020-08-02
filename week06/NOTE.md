@@ -44,9 +44,9 @@ python manage.py inspectdb > models.py
 
 关于django MTV模式的理解：
 
-1. urls可以理解为请求路径：全局urls类似Java Controller类上的路径，app的urls类似methods上的路劲，最终会叠加
+1. urls可以理解为请求路径：全局urls类似Java Controller类上的路径，app的urls类似methods上的路径，最终会叠加。
 2. views可以理解为业务层，接收请求-> 获取数据 -> 数据处理 -> 数据展示（json/html)
-3. models可以理解为数据库表对应的实体类
+3. models可以理解为数据库表对应的实体类。
 4. template可以理解为Java web开发中的模板，可以有`JSP`、`FreeMarker`、`Thymeleaf`等，接收数据并展示。前后端分离模式流行后该部分一般拆分出去。
 
 
