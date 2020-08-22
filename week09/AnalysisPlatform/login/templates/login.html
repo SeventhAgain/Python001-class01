@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<p>Input your username and password</p>
+{% if msg is not '' %}
+<font color="green">{{msg}}</font>
+{% endif %}
+
+<form action="/auth/login" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="login">
+</form>
+</body>
+</html>
