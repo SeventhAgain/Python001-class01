@@ -17,7 +17,7 @@ django开发web项目时，一般将功能较为完整独立的业务放到单�
 
 2. **配置数据库**
 
-`settings.py`的 `DATABASES` 中添加自定义app名
+`settings.py`的 `DATABASES` 中添加默认数据库
 ```
 DATABASES = {
     'default': {
@@ -31,7 +31,7 @@ DATABASES = {
 }
 ```
 
-`settings.py`同级的 `__init__.py` 文件中添加自定义app名
+`settings.py`同级的 `__init__.py` 文件中添加如下配置
 ```python
 import pymysql
 pymysql.install_as_MySQLdb()
