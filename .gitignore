@@ -1,0 +1,11 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+week01/spiders/spiders/__pycache__/items.cpython-37.pyc
+week01/spiders/spiders/__pycache__/pipelines.cpython-37.pyc
+week01/spiders/spiders/spiders/__pycache__/movies.cpython-37.pyc
+week02/spiders/spiders/__pycache__/items.cpython-37.pyc
+week02/spiders/spiders/__pycache__/middlewares.cpython-37.pyc
+week02/spiders/spiders/__pycache__/pipelines.cpython-37.pyc
+week02/spiders/spiders/spiders/__pycache__/movies.cpython-37.pyc
+
+.idea
